@@ -91,6 +91,69 @@ nav ul li a:hover{
   display: none;
 }
 
+/* about section  */
+.about{
+  padding: 85px 0;
+
+}
+.parent-about{
+  display: flex;
+  gap: 33%;
+  margin-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
+.img-div img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.about-title{
+  text-align: center;
+  width: 600px;
+}
+.about-title p{
+  margin: 19px 0;
+  font-size: 16px;
+  
+}
+.about-title i{
+   margin: 0 10px;
+}
+/* menu section  */
+.menu-title{
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 52px;
+  color: white;
+}
+.parent-item{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 55px;
+  margin-right: 55px;
+  text-align: center;
+  grid-gap: 53px;
+  color: white;
+}
+.single-item img{
+   width: 250px;
+   height: 250px;
+   border-radius: 50%;
+}
+.single-item h3{
+  margin: 12px 0;
+  font-size: 22px;
+}
+.menu-section{
+  padding: 80px 0;
+  background: rgb(61, 54, 54);
+}
+.single-item p{
+  color: rgb(255, 243, 243);
+}
+  
+
 
 
 
@@ -98,6 +161,8 @@ nav ul li a:hover{
 
 /* Media query for tablets & phones */
 @media (max-width: 768px) {
+
+
   .menu-toggle {
     display: block;
   }
@@ -116,18 +181,18 @@ nav ul li a:hover{
    
     nav ul {
     width: 100vw; /* পুরো স্ক্রিন ধরবে */
-    left: 0;
-    right: 0;
-  }
+     left: 0;
+    right: 0; 
+   }
 
-  nav ul.active {
+   nav ul.active {
     display: flex;
     padding: 20px 0;
   }
 
   nav ul li {
     margin: 10px 0;
-  }
+  } 
 
   .hero-area {
     flex-direction: column;
@@ -155,4 +220,20 @@ nav ul li a:hover{
   .coffee-text p {
     font-size: 14px;
   }
+
+  .parent-about{
+    flex-direction: column;
+    gap: 53px;
+   
   }
+  .about-title{
+    width: 300px;
+  }
+  .parent-item{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .single-item h3{
+    margin: 22px 0;
+  }
+
+}
