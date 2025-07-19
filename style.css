@@ -64,11 +64,12 @@ nav ul li a:hover{
    
 }
 .btn button{
-    padding: 10px 15px;
+    padding: 10px 30px;
     border: 2px solid transparent;
     transition: 0.3s ease;
     background-color: yellow;
     border-radius: 7px;
+    font-size: 20px;
 }
 .btn button:hover{
     background: transparent;
