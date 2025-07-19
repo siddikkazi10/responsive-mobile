@@ -382,8 +382,12 @@ nav ul li a:hover{
   }
 
   .testimonial-card {
-    max-width: 90%;
+    max-width: 100%;
+
     
+  }
+  .testimonial-card p{
+    max-width: 100%;
   }
 
   .title {
@@ -402,15 +406,22 @@ nav ul li a:hover{
     margin: 0 50px;
     grid-gap: 23px;
     margin-top: 22px;
+    
   }
   /* contact  */
   .parent-contact{
     flex-direction: column;
-    margin: 0 30px;
+    margin: 0 50px;
     align-items: center;
     
   }
-
+  .mail{
+    max-width: 130%;
+    margin: 50px;
+  }
+  .mail input , .text, .btn-sub{
+    width: 300px;
+  }
  
 
 }
