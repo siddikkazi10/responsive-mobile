@@ -406,7 +406,9 @@ nav ul li a:hover{
   /* contact  */
   .parent-contact{
     flex-direction: column;
-    margin: 0 50px;
+    margin: 0 30px;
+    align-items: center;
+    
   }
 
  
